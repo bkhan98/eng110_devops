@@ -82,9 +82,18 @@
 - how to delete files/folder 'rm -rf folder_name'
 - how to check running process in linux 'top', use control c to exit or 'ps aux'
 - how to delete/kill/remove any process 'kill pid' 
-  
-  ### Permissions
-  - how to check permissions 'll'
-  - how to switch to 'root user' 'sudo su'
-  - how to change permissions 'chmod instruction file_name
-  - i.e. 'chmod 400 test.txt', test.txt is now only readable
+
+ ### Permissions
+- how to check permissions 'll'
+- how to switch to 'root user' - 'sudo su'
+- how to change permissions 'chmod instruction file_name
+- i.e. 'chmod 400 test.txt', test.txt is now only readable
+- how to launch a process with a time limit of 30sec
+    > 'timeout DURATION COMMAND ie 'timeout 30s ping ww.cyberciti.bic'
+- how to delete a process:
+    >- find the process 
+
+- how to install a product 'install webserver called 'nginx'
+- 'sudo apt-get install package_name'
+- how to check the 'status' - 'systemctl status nginx'
+- 
