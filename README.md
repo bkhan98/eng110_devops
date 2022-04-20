@@ -91,9 +91,12 @@
 - how to launch a process with a time limit of 30sec
     > 'timeout DURATION COMMAND ie 'timeout 30s ping ww.cyberciti.bic'
 - how to delete a process:
-    >- find the process 
-
+    >- find the process ID (PID) of the program 'pidof program_name'
+    >-kill the process using PID 'sudo kill -9 process_id' or 'sudo kill -9 process_id_1 process_id_2 process_id_3' or to kill all processes of a program 'sudo kill -9 pidog_program_name'
 - how to install a product 'install webserver called 'nginx'
-- 'sudo apt-get install package_name'
-- how to check the 'status' - 'systemctl status nginx'
+  >- 'sudo apt-get install package_name'
+  >- how to check the 'status' - 'systemctl status nginx'
+  >- create file.sh to automate nginx process.
+  >- to give permission to nginx 'sudo chmod +x file.sh'
+  >- execute the file.sh 'sudo ./file.sh'
 - 
