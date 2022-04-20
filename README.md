@@ -69,3 +69,22 @@
 - i.e. 'sudo apt-get update -y' or 'sudo apt-get update -y'
 - Who am I 'uname' or 'uname -a'
 - where am I 'pwd'
+- how to check files/folders in existing location 'ls' or 'ls -a' shows all hiden files too
+- how to create dir 'mkdir dir_name'
+- navigate to any folder  > change dir 'cd folder_name'
+- how to change back to home location or any location 'cd ..' or 'cd' enter
+- how to create a file 'touch file_name' or 'nano file_name' also opens the file
+- to see the content of the file on terminal 'cat file_name'
+- how to copy file 'cp location_file_nam to destination_path'
+    >create a folder called 'test' in 'current location'
+    >cut & paste the file inside the test folder from current location 'move'.    
+    >use this: 'mv file_name location_name'
+- how to delete files/folder 'rm -rf folder_name'
+- how to check running process in linux 'top', use control c to exit or 'ps aux'
+- how to delete/kill/remove any process 'kill pid' 
+  
+  ### Permissions
+  - how to check permissions 'll'
+  - how to switch to 'root user' 'sudo su'
+  - how to change permissions 'chmod instruction file_name
+  - i.e. 'chmod 400 test.txt', test.txt is now only readable
