@@ -61,3 +61,17 @@ maintain existing deployments.
 ####Initial cost but high ROI
 ####Less miscommunication between teams allows for faster delivery
 ####More delivered products = more money
+
+
+### Linux - Ubuntu distro
+- any tool we use we must run it in admin
+- 'vagrant up'
+- 'vagrant destroy'
+- 'vagrant halt' 
+- 'vagrant reload'
+- update 'sudo apt-get update' or 'sudo apt-get update -y'
+- update 'sudo apt-get upgrade' or 'sudo apt-get upgrade -y'
+- automation '-y'
+- i.e. 'sudo apt-get update -y' or 'sudo apt-get update -y'
+- Who am I 'uname' or 'uname -a'
+- where am I 'pwd'
