@@ -97,3 +97,16 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 
 ## Why Vagrant?
 Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
+
+###! Env Variable - as soon as you leave the env the variable is gone
+- How to check existing `Env var`, `printenv`
+- How to print specific env var
+- how to create an env var, use key word `export` `Key=value` and place your env instead of value.
+- How to make an env var persistent on linux ubantu:
+    > open current user's profile into text editor:
+      - `vi ~/.bash_profile`
+    > add tghe export command for every environment variable you want tp persist
+      - `export JAVA_HOME=/opt/openjdk11`
+    > save your changes
+    >to immediately apply all changes to bash_profile, use the source command
+      - `source ~/.bash_profile`
