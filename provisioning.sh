@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 # communicated with os that this is going to be a bash script using 'shebang'
 
 # run updates
