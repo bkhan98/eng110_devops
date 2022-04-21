@@ -10,7 +10,7 @@ FASTER RELEASE OF SOFTWARE IS THE KEY BENEFIT OF DevOps.
 Companies opt for DevOps because it removes the wall between development and operations team, thus enabling faster development of new projects whilst making it easier to maintain existing deployments.
 Give example of TDD for which you have a knowledge but operations might not.
 
-####DevOps four key Pillers
+#### DevOps four key Pillers
 - Ease of use 
   > Automated pipelines
   > Allows developers to spend more time coding and ensures their work is closer to business intent. 
