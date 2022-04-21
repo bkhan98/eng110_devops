@@ -44,3 +44,9 @@
 
 12. To save and exit `nano` mode, hold `ctrl` and press `x`, then press `y` and `enter`.
     > *This exits the editing mode and saves the file too.*
+
+* The command below is only needed when automation is adopted, for manual installation of nginx this step is not to be included in the "provisioning.sh file:
+
+        config.trigger.after :up do |trigger|
+            config.vm.provisioning "shell", path: "provisioning.sh"
+        end
