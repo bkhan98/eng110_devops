@@ -1,5 +1,5 @@
 #!bin/bash
-# communicated with os that this is going to be a bash script 
+# communicated with os that this is going to be a bash script using 'shebang'
 
 # run updates
 sudo apt-get update -y
@@ -11,10 +11,4 @@ sudo apt-get install nginx -y
 sudo systemctl start nginx
 # enable nginx
 sudo systemctl status nginx -y
-
-
-
-# giving permission to provisioning.sh file
-sudo chmod +x provisioning.sh
-# to execute the provisioning.sh file
-sudo ./provisioning.sh
+ # -y gives permission as it makes it run in admin
