@@ -5,7 +5,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Why DevOps?
 
-It bridges the gap between Development and Operations. Help the company teams collaborate. It avoids blame-culture which is why it came in existence.
+It bridges the gap between Development and Operations. Help the company teams collaborate. It avoids blame-culture which is why it came into existence.
 FASTER RELEASE OF SOFTWARE IS THE KEY BENEFIT OF DevOps.
 Companies opt for DevOps because it removes the wall between development and operations team, thus enabling faster development of new projects whilst making it easier to maintain existing deployments.
 Give example of TDD for which you have a knowledge but operations might not.
@@ -45,13 +45,13 @@ A virtual machine (VM) is a virtual environment that functions as a virtual comp
 
 #### Linux - commands
 - any tool we use we must run it in admin
-- 'vagrant up'
-- 'vagrant destroy'
+- 'vagrant up' - starts vagrant
+- 'vagrant destroy' 
 - 'vagrant halt' 
-- 'vagrant reload'
+- 'vagrant reload' - connects to internet
 - update 'sudo apt-get update' or 'sudo apt-get update -y'
 - update 'sudo apt-get upgrade' or 'sudo apt-get upgrade -y'
-- automation '-y'
+- automation '-y' - automatically replies to Y/N prompts
 - i.e. 'sudo apt-get update -y' or 'sudo apt-get update -y'
 - Who am I 'uname' or 'uname -a'
 - where am I 'pwd'
