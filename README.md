@@ -86,4 +86,14 @@ A virtual machine (VM) is a virtual environment that functions as a virtual comp
   >- to give permission to nginx 'sudo chmod +x file.sh'
   >- execute the file.sh 'sudo ./file.sh'
 
+## What is virtualisation?
+Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
 
+## What is a VirtualBox?
+A VirtualBox or VB is a software virtualization package that installs on an operating system as an application. VirtualBox allows additional operating systems to be installed on it, as a Guest OS, and run in a virtual environment.
+
+## What is Vagrant?
+Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
+
+## Why Vagrant?
+Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
