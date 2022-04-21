@@ -10,5 +10,5 @@ sudo apt-get install nginx -y
 # start nginx
 sudo systemctl start nginx
 # enable nginx
-sudo systemctl status nginx -y
- # -y gives permission as it makes it run in admin
+sudo systemctl enable nginx
+# -y gives permission as it makes it run in admin

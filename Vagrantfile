@@ -1,5 +1,3 @@
-
-
 Vagrant.configure("2") do |config|
 
 # create a VM named buntu
@@ -8,7 +6,7 @@ Vagrant.configure("2") do |config|
  config.vm.network "private_network", ip: "192.168.56.10"
  # execute the provisioning.sh file at boot
  config.trigger.after :up do |trigger|
-    config.vm.provisioning "shell", path: "provisioning.sh"
+    config.vm.provision "shell", path: "provisioning.sh"
  end
 
 end
