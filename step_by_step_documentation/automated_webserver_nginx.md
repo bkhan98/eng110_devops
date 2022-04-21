@@ -3,7 +3,7 @@
 1. Create and open a .sh file named 'provisioning.sh' using the command 'nano provisioning.sh'
     > *This creates a file with .sh extension and opens it for editing.*
 
-2. Insert the following text, `#!bin/bash`.
+2. Insert the following text, `#!/bin/bash`.
     > *The text in qoute tells the OS that it is a bash script.*
 
 3. Insert the following text, `sudo apt-get update -y`.
